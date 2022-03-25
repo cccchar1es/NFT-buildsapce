@@ -1,8 +1,8 @@
 {
-    "description": "Carl is learning modeling. This one is his early work.",
-    "name": "Carl's chicken",
-    "image": "ipfs://QmZnw5LMuY4zTM6hsmNNRug9ScyYKFefnyhg7XR9YQGDsQ",
-    "animation_url": "ipfs://Qme9bsTzgjU7XCE8kA6xJmDdLXVremUcwkQtGgxRAocSbx",
+    "description": "This is one of Carl's early works too.",
+    "name": "Carl's robot",
+    "image": "ipfs://QmVTYUAJ1y9reTQhLhurHTFd3NQBvWrehzwHm5ks1Not4x",
+    "animation_url": "ipfs://Qma2KaJpqYBhMxkn2B1EPhMVC4uKe92XaLayrTUozptXXX",
     "attributes": [
         {
             "trait_type": "Friend",
@@ -10,7 +10,7 @@
         },
         {
             "trait_type": "Item",
-            "value": "Chicken"
+            "value": "Robot"
         },
         {
             "trait_type": "Have Fun",
@@ -32,4 +32,5 @@
         }
 
     ]
+    
 }

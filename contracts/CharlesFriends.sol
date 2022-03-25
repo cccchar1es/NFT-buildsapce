@@ -17,25 +17,37 @@ contract CharlesFriends is ERC721URIStorage {
 
 
   // We need to pass the name of our NFTs token and its symbol.
-  constructor() ERC721 ("Charles", "CNFT") {
+  constructor() ERC721 ("CharlesFriends", "SCF") {
     console.log("This is my NFT contract. Woah!");
   }
 
   // A function our user will hit to get their NFT.
   function makeNFT() public {
 
-    string memory CarlUri = "ipfs://QmX63fHJ5y8GmniiErBuoKYtcmrXsNmXnSzfYKZJxwv3fP";
-    string memory test = "ipfs://QmUVvDGSVmXDquYgXk9em5XGUkWp3cpzE4FiV4zJcYWMUe";
-    
-    // Get the current tokenId, this starts at 0.
-    uint256 newItemId = _tokenIds.current();
+    string memory Carl = "ipfs://QmcoTyJfs13oANFaE9Dfa53aShTaGKYe9GYGupXzpke1tZ";
+    string memory Carl2 = "ipfs://QmPAWaMATEjBZYtDU2dBzXjQ75Etxqda5jFXwSErwHinAP";
+    string memory Haili = "ipfs://QmYYcFYwvw6T1nSwCLZx5rRxhSTeY8fVRkjHVU5v6o1BfG";
+    string memory James = "ipfs://QmfY5ef5pZyZU9kpEmYvurrHegkpDMNyrVgDyufjbMePqS";
+    string memory Jayson = "ipfs://QmU6ptRBKfyuWmNVPJDb3PF4P9AeFrXwJxk2sgtWvbzPDM";
 
-    // Actually mint the NFT to the sender using msg.sender.
-    _safeMint(msg.sender, newItemId);
+    _safeMint(msg.sender, _tokenIds.current());
+    _setTokenURI(_tokenIds.current(), Carl);
+    _tokenIds.increment();
 
-    // NFT for Carl.
-    _setTokenURI(newItemId, test);
-    console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
+    _safeMint(msg.sender, _tokenIds.current());
+    _setTokenURI(_tokenIds.current(), Carl2);
+    _tokenIds.increment();
+
+    _safeMint(msg.sender, _tokenIds.current());
+    _setTokenURI(_tokenIds.current(), Haili);
+    _tokenIds.increment();
+  
+    _safeMint(msg.sender, _tokenIds.current());
+    _setTokenURI(_tokenIds.current(), James);
+    _tokenIds.increment();
+
+    _safeMint(msg.sender, _tokenIds.current());
+    _setTokenURI(_tokenIds.current(), Jayson);
     _tokenIds.increment();
   }
 }

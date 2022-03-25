@@ -1,16 +1,16 @@
 {
-    "description": "Carl is learning modeling. This one is his early work.",
-    "name": "Carl's chicken",
-    "image": "ipfs://QmZnw5LMuY4zTM6hsmNNRug9ScyYKFefnyhg7XR9YQGDsQ",
-    "animation_url": "ipfs://Qme9bsTzgjU7XCE8kA6xJmDdLXVremUcwkQtGgxRAocSbx",
+    "description": "This is Haili's favourite image!",
+    "name": "Haili's image",
+    "image": "ipfs://QmZTSE5xcgjsm2h7czRMJt16qdJJgkZrcov36M2PpW2Z3T",
+    "animation_url": "ipfs://QmTfXEX3CpKVYGgc1rSsueAdztD7jv8LZrwTMVyTRw19r5",
     "attributes": [
         {
             "trait_type": "Friend",
-            "value": "Carl"
+            "value": "Haili"
         },
         {
             "trait_type": "Item",
-            "value": "Chicken"
+            "value": "Image"
         },
         {
             "trait_type": "Have Fun",
@@ -32,4 +32,5 @@
         }
 
     ]
+    
 }

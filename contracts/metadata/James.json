@@ -1,6 +1,35 @@
 {
-    "description": "Hahahah James ",
+    "description": "This is James's favourite meme!!",
     "name": "James's meme",
     "image": "ipfs://QmPfKFtDWcGKkyxQ71wPihGnD7Rub81m6dKcbKaRbXTW8H",
-    "animation_url": "ipfs://QmXxY7gsTRiWQ8XG6BSTxaNX9UL9ZpUvPdGRZWNbVJt2Aw"
+    "animation_url": "ipfs://QmXxY7gsTRiWQ8XG6BSTxaNX9UL9ZpUvPdGRZWNbVJt2Aw",
+    "attributes": [
+        {
+            "trait_type": "Friend",
+            "value": "James"
+        },
+        {
+            "trait_type": "Item",
+            "value": "Meme"
+        },
+        {
+            "trait_type": "Have Fun",
+            "value": "Yeahhhh"
+        }, 
+        {
+          "trait_type": "Level", 
+          "value": 100
+        }, 
+        {
+          "display_type": "boost_number", 
+          "trait_type": "FUN", 
+          "value": 50
+        }, 
+        {
+          "display_type": "boost_percentage", 
+          "trait_type": "FUN!!", 
+          "value": 100
+        }
+
+    ]
 }
